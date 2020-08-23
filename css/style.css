@@ -501,6 +501,90 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 15px;
 }
 
+#introT33 {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/T33/bannerT33.jpg) top center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+#introT33:before {
+  content: "";
+  background: rgba(6, 12, 34, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#introT33 .intro-containerT33 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 90px;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
+
+#introT77 {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/bannerT77.png) top center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+#introT77:before {
+  content: "";
+  background: rgba(6, 12, 34, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#introT77 .intro-containerT77 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 90px;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
+
 #intro h1 {
   color: #fff;
   font-size: 56px;
@@ -648,10 +732,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
   /*background: url("../img/about-bg.jpg");
   background-size: cover;*/
-  background-color:#45465E;
+  background-color:#fff;
   overflow: hidden;
   position: relative;
-  color: #fff;
+  color: #45465E;
   padding: 60px 0 40px 0;
   max-height: 400px;
 }
@@ -670,7 +754,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: ##45465E;
 }
 
 #about h3 {
@@ -678,14 +762,57 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  color: #45465E;
 }
 
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #45465E;
 }
+
+#aboutT77 {
+  /*background: url("../img/about-bg.jpg");
+  background-size: cover;*/
+  background-color:#fff;
+  overflow: hidden;
+  position: relative;
+  color: #45465E;
+  padding: 60px 0 40px 0;
+  max-height: 400px;
+}
+
+#aboutT77:before {
+  content: "";
+  background: ;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#aboutT77 h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: ##45465E;
+}
+
+#aboutT77 h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #45465E;
+}
+
+#aboutT77 p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #45465E;
+}
+
 
 /*--------------------------------------------------------------
 # Speakers Section
@@ -975,6 +1102,48 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: none;
   color:#7ECEF4;
   border: 2px solid #7ECEF4;
+}
+
+.btn-primary {
+  margin:10px 10px 0px 0px;
+  color: #fff;
+  background-color: #45465e;
+  border-color: #45465e;
+}
+
+.btn-primary:hover {
+  margin:10px 10px 0px 0px;
+  color: #fff;
+  background-color: #7ECEF4;
+  border-color: #7ECEF4;
+}
+
+.btn-primary:active {
+  margin:10px 10px 0px 0px;
+  color: #fff;
+  background-color: #7ECEF4;
+  border-color: #7ECEF4;
+}
+
+.btn-outline-primary {
+  margin:10px 10px 0px 0px;
+  color: #45465e;
+  background-color: #fff;
+  border-color: #45465e;
+}
+
+.btn-outline-primary:hover {
+  margin:10px 10px 0px 0px;
+  color: #7ECEF4;
+  background-color: #fff;
+  border-color: #7ECEF4;
+}
+
+.btn-outline-primary:active {
+  margin:10px 10px 0px 0px;
+  color: #7ECEF4;
+  background-color: #fff;
+  border-color: #7ECEF4;
 }
 
 /*--------------------------------------------------------------
@@ -1312,7 +1481,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #contact {
-  padding: 60px 0;
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-bottom: 60px;
+  padding-left: 0px;
 }
 
 #contact .contact-info {
