@@ -503,7 +503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #introT33 {
   width: 100%;
-  height: 100vh;
+  height: auto;/*100vh;*/
   background: url(../img/T33/bannerT33.jpg) top center;
   background-size: cover;
   overflow: hidden;
@@ -545,7 +545,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #introT77 {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: url(../img/bannerT77.png) top center;
   background-size: cover;
   overflow: hidden;
@@ -1010,14 +1010,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Venue Section
+# T77 Section
 --------------------------------------------------------------*/
 
-#venue {
+#T77 {
   padding: 60px 0;
 }
 
-#venue .container-fluid {
+#T77 .container-fluid {
   margin-bottom: 3px;
 }
 .container-fluid {
@@ -1033,13 +1033,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-right: 0px;
 }
 
-#venue .venue-map iframe {
+#T77 .venue-map iframe {
   width: 100%;
   height: 100%;
   min-height: 300px;
 }
 
-#venue .venue-info {
+#T77 .venue-info {
   background: url("img/T33/T33-info-bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
@@ -1047,7 +1047,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 60px;
 }
 
-#venue .venue-info:before {
+#T77 .venue-info:before {
   content: "";
   /*background: #45465E;*/
   position: absolute;
@@ -1057,35 +1057,35 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
-#venue .venue-info h3 {
+#T77 .venue-info h3 {
   font-size: 36px;
   font-weight: 400;
   color:#45465E;
 }
 
-#venue .venue-info p {
+#T77 .venue-info p {
   color: #45465E;
   margin-bottom: 0;
 }
 
-#venue .venue-gallery-container {
+#T77 .venue-gallery-container {
   padding-right: 0px;
 }
 
-#venue .venue-gallery {
+#T77 .venue-gallery {
   overflow: hidden;
 }
 
-#venue .venue-gallery img {
+#T77 .venue-gallery img {
   transition: all ease-in-out 0.4s;
 }
 
-#venue .venue-gallery:hover img {
+#T77 .venue-gallery:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-#venue button {
+#T77 button {
   border: 2px solid #7ECEF4;
   margin-top:20px;
   padding: 9px 25px;
@@ -1098,7 +1098,102 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 3px;
 }
 
-#venue button:hover {
+#T77 button:hover {
+  background: none;
+  color:#7ECEF4;
+  border: 2px solid #7ECEF4;
+}
+
+/*--------------------------------------------------------------
+# T33 Section
+--------------------------------------------------------------*/
+
+#T33 {
+  padding: 60px 0;
+}
+
+#T33 .container-fluid {
+  margin-bottom: 3px;
+}
+.container-fluid {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container-fluid .venue-gallery-container{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#T33 .venue-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+}
+
+#T33 .venue-info {
+  background: url("img/T33/T33-info-bg.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#T33 .venue-info:before {
+  content: "";
+  /*background: #45465E;*/
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#T33 .venue-info h3 {
+  font-size: 36px;
+  font-weight: 400;
+  color:#45465E;
+}
+
+#T33 .venue-info p {
+  color: #45465E;
+  margin-bottom: 0;
+}
+
+#T33 .venue-gallery-container {
+  padding-right: 0px;
+}
+
+#T33 .venue-gallery {
+  overflow: hidden;
+}
+
+#T33 .venue-gallery img {
+  transition: all ease-in-out 0.4s;
+}
+
+#T33 .venue-gallery:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#T33 button {
+  border: 2px solid #7ECEF4;
+  margin-top:20px;
+  padding: 9px 25px;
+  cursor: pointer;
+  background: #7ECEF4;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+#T33 button:hover {
   background: none;
   color:#7ECEF4;
   border: 2px solid #7ECEF4;
@@ -1107,22 +1202,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 .btn-primary {
   margin:10px 10px 0px 0px;
   color: #fff;
-  background-color: #45465e;
-  border-color: #45465e;
+  background-color: #7ECEF4;
+  border: 2px solid #7ECEF4;
 }
-
 .btn-primary:hover {
   margin:10px 10px 0px 0px;
-  color: #fff;
-  background-color: #7ECEF4;
-  border-color: #7ECEF4;
+  background: none;
+  color:#7ECEF4;
+  border: 2px solid #7ECEF4;
 }
 
 .btn-primary:active {
   margin:10px 10px 0px 0px;
-  color: #fff;
-  background-color: #7ECEF4;
-  border-color: #7ECEF4;
+  background: none;
+  color:#7ECEF4;
+  border: 2px solid #7ECEF4;
 }
 
 .btn-outline-primary {
@@ -1375,7 +1469,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #060c22;
   border: 0;
   outline: none;
-  margin: 0;
+  margin: 20px;
   padding: 9px 20px;
   border-radius: 3px;
   font-size: 14px;
@@ -1580,6 +1674,116 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
+  background: #C8161E;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# TestDrive Section
+--------------------------------------------------------------*/
+
+#TestDrive {
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-bottom: 60px;
+  padding-left: 0px;
+}
+
+#TestDrive .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#TestDrive .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #7ECEF4;
+}
+
+#TestDrive .contact-info address,
+#TestDrive .contact-info p {
+  margin-bottom: 0;
+  color: #112363;
+}
+
+#TestDrive .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #112363;
+}
+
+#TestDrive .contact-info a {
+  color: #4869df;
+}
+
+#TestDrive .contact-info a:hover {
+  color: #7ECEF4;
+}
+
+#TestDrive .contact-address,
+#TestDrive .contact-phone,
+#TestDrive .contact-email {
+  margin-bottom: 20px;
+}
+
+#TestDrive .form #sendmessage {
+  color: #7ECEF4;
+  border: 1px solid #7ECEF4;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#TestDrive .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#TestDrive .form #sendmessage.show,
+#TestDrive .form #errormessage.show,
+#TestDrive .form .show {
+  display: block;
+}
+
+#TestDrive .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#TestDrive .form input,
+#TestDrive .form textarea {
+  padding: 10px 14px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+#TestDrive .form button[type="submit"] {
+  background: #7ECEF4;
+  border: 0;
+  padding: 10px 40px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#TestDrive .form button[type="submit"]:hover {
   background: #C8161E;
 }
 
@@ -1840,7 +2044,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 574px) {
-  #venue .venue-info h3 {
+  #T77 .venue-info h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 574px) {
+  #T33 .venue-info h3 {
     font-size: 24px;
   }
 }
