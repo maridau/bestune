@@ -5,7 +5,7 @@
 	$userEmail	 	= $_POST['myEmail'];
 	$userPhone 		= $_POST['myPhone'];
 
-	$to 			= "marina.dau@gmail.com";
+	$to 			= "comercioexterior@kaitazoff.com";
 	$subject 		= "Test Drive BESTUNE";
 	$body 			= "Contenido del mensaje:";
 
@@ -14,5 +14,5 @@
 	$body .= "\r\n Celular: " . $userPhone;
 
     mail($to, $subject, $body);
-    header('Location: test-drive.html');
+    header('Location: index.html');
 ?>
