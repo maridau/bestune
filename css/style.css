@@ -17,7 +17,20 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #f8234a;
+  color: #45465E;
+  outline: none;
+  text-decoration: none;
+}
+
+a.t77 {
+  color: #7ECEF4;
+  transition: 0.5s;
+}
+
+a.t77:hover,
+a.t77:active,
+a.t77:focus {
+  color: #7ECEF4;
   outline: none;
   text-decoration: none;
 }
@@ -1103,7 +1116,107 @@ body.mobile-nav-active #mobile-nav-toggle {
   color:#7ECEF4;
   border: 2px solid #7ECEF4;
 }
+#T77-footer {
+padding-bottom: 60px;
+}
 
+/*--------------------------------------------------------------
+# T77 FOTOS Section
+--------------------------------------------------------------*/
+
+#T77FOTOS {
+  padding: 60px 0;
+}
+
+#T77FOTOS .container-fluid {
+  margin-bottom: 3px;
+}
+.container-fluid {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container-fluid .venue-gallery-container{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#T77FOTOS .venue-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+}
+
+#T77FOTOS .venue-info {
+  background: url("img/T33/T33-info-bg.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#T77FOTOS .venue-info:before {
+  content: "";
+  /*background: #45465E;*/
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#T77FOTOS .venue-info h3 {
+  font-size: 36px;
+  font-weight: 400;
+  color:#45465E;
+}
+
+#T77FOTOS .venue-info p {
+  color: #45465E;
+  margin-bottom: 0;
+}
+
+#T77FOTOS .venue-gallery-container {
+  padding-right: 0px;
+}
+
+#T77FOTOS .venue-gallery {
+  overflow: hidden;
+}
+
+#T77FOTOS .venue-gallery img {
+  transition: all ease-in-out 0.4s;
+}
+
+#T77FOTOS .venue-gallery:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#T77FOTOS button {
+  border: 2px solid #7ECEF4;
+  margin-top:20px;
+  padding: 9px 25px;
+  cursor: pointer;
+  background: #7ECEF4;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+#T77FOTOS button:hover {
+  background: none;
+  color:#7ECEF4;
+  border: 2px solid #7ECEF4;
+}
+#T77FOTOS-footer {
+padding-bottom: 60px;
+}
 /*--------------------------------------------------------------
 # T33 Section
 --------------------------------------------------------------*/
@@ -1198,6 +1311,103 @@ body.mobile-nav-active #mobile-nav-toggle {
   color:#7ECEF4;
   border: 2px solid #7ECEF4;
 }
+
+
+/*--------------------------------------------------------------
+# T33 FOTOS Section
+--------------------------------------------------------------*/
+
+#T33FOTOS {
+  padding: 60px 0;
+}
+
+#T33FOTOS .container-fluid {
+  margin-bottom: 3px;
+}
+.container-fluid {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container-fluid .venue-gallery-container{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#T33FOTOS .venue-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+}
+
+#T33FOTOS .venue-info {
+  background: url("img/T33/T33-info-bg.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#T33FOTOS .venue-info:before {
+  content: "";
+  /*background: #45465E;*/
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#T33FOTOS .venue-info h3 {
+  font-size: 36px;
+  font-weight: 400;
+  color:#45465E;
+}
+
+#T33FOTOS .venue-info p {
+  color: #45465E;
+  margin-bottom: 0;
+}
+
+#T33FOTOS .venue-gallery-container {
+  padding-right: 0px;
+}
+
+#T33FOTOS .venue-gallery {
+  overflow: hidden;
+}
+
+#T33FOTOS .venue-gallery img {
+  transition: all ease-in-out 0.4s;
+}
+
+#T33FOTOS .venue-gallery:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#T33FOTOS button {
+  border: 2px solid #7ECEF4;
+  margin-top:20px;
+  padding: 9px 25px;
+  cursor: pointer;
+  background: #7ECEF4;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+#T33FOTOS button:hover {
+  background: none;
+  color:#7ECEF4;
+  border: 2px solid #7ECEF4;
+}
+
 
 .btn-primary {
   margin:10px 10px 0px 0px;
@@ -1685,10 +1895,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #TestDrive {
-  padding-top: 20px;
+  padding-top: 60px;
   padding-right: 0px;
   padding-bottom: 60px;
   padding-left: 0px;
+  background-color: #e8f5fb;
 }
 
 #TestDrive .contact-info {
