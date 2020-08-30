@@ -1311,6 +1311,16 @@ padding-bottom: 60px;
   color:#7ECEF4;
   border: 2px solid #7ECEF4;
 }
+#T33 button:active {
+  background: none;
+  color:#7ECEF4;
+  border: 2px solid #7ECEF4;
+}
+#T33 button:visited {
+  background: none;
+  color:#7ECEF4;
+  border: 2px solid #7ECEF4;
+}
 
 
 /*--------------------------------------------------------------
@@ -1698,7 +1708,7 @@ padding-bottom: 60px;
 }
 
 #subscribe button:hover {
-  background: #C8161E;
+  background: #45465E;
 }
 
 
@@ -1884,7 +1894,7 @@ padding-bottom: 60px;
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #C8161E;
+  background: #45465E;
 }
 
 
@@ -1995,7 +2005,7 @@ padding-bottom: 60px;
 }
 
 #TestDrive .form button[type="submit"]:hover {
-  background: #C8161E;
+  background: #45465E;
 }
 
 /*--------------------------------------------------------------
@@ -2134,7 +2144,7 @@ padding-bottom: 60px;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #C8161E;
+  background: #45465E;
 }
 
 #footer .copyright {
